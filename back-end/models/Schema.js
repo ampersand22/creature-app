@@ -3,7 +3,8 @@ const { default: mongoose } = require('mongoose')
 
 const creatureSchema = new mongoose.Schema({
     name: String,
-    age: String,
+    species: String,
+    age: Number,
     location: String,
     image: String
 });

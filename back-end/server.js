@@ -3,6 +3,8 @@ const app = express()
 const mongoose = require('mongoose')
 const cors = require('cors');
 const Creatures = require('./models/Schema.js')
+const monsterSeed = require('./models/monsterSeed.js')
+
 
 app.use(express.json())
 app.use(cors())
